@@ -1,0 +1,1 @@
+[![Java CI with Gradle](https://github.com/LubovKrash/app-ibank-build-for-testers/actions/workflows/gradle.yml/badge.svg)](https://github.com/LubovKrash/app-ibank-build-for-testers/actions/workflows/gradle.yml)
