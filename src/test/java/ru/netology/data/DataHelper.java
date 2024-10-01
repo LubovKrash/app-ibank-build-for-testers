@@ -25,7 +25,7 @@ public class DataHelper {
     }
 
     public static String getMaskedNumber(String cardNumber) {
-        return "**** **** ****" + cardNumber.substring(15);
+        return "**** **** **** " + cardNumber.substring(15);
     }
 
     public static int generateValidAmount(int balance) {

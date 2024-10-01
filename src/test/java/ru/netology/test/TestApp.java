@@ -46,7 +46,7 @@ public class TestApp {
                 () -> assertEquals(expectedBalanceSecondCard, actualBalanceSecondCard));
     }
 
-    @Test
+   @Test
     void shouldGetErrorMessageIfAmountMoreBalance() {
         var amount = generateInvalidAmount(secondCardBalance);
         var transferPage = dashboardPage.selectCardToTransfer(firstCardInfo);
